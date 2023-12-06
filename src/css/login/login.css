@@ -1,0 +1,162 @@
+.App-login {
+    position: relative;
+}
+
+.login-wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.login-wrap > * {
+    transition: .25s;
+}
+
+.login-background {
+    height: 25vh;
+    background-image: url('../../../public/logo512.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-form-area {
+    position: relative;
+    height: 75vh;
+    background-color: #fff;
+}
+
+.login-input-group {
+    margin-top: 15px;
+}
+
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.login-title {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .87);
+    text-align: center;
+}
+
+.login-sub {
+    position: relative;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .6);
+    text-align: center;
+}
+
+.login-util {
+    display: flex;
+    align-items: center;
+}
+
+.login-util .login-util-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-util .login-util-item i {
+    color: #5783ff;
+}
+
+.login-util .login-util-item a {
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+}
+
+.login-btn-group {
+    margin-top: 20px;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-login {
+    background-color: #2185d0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    color: #fff;
+}
+
+.btn-login:hover {
+    background-color: #fff;
+    border-color: #2185d0;
+    color: #2185d0;
+}
+
+.btn-sign {
+    margin-top: 5px;
+    background-color: #1b1c1d;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    color: #fff;
+}
+
+.btn-sign:hover {
+    background-color: #fff;
+    border-color: #1b1c1d;
+    color: #1b1c1d;
+}
+
+@media all and (min-width: 1025px) {
+    .login-wrap {
+        display: flex;
+    }
+
+    .login-background, 
+    .login-form-area {
+        width: 50vw;
+        height: 100vh;
+    }
+
+    .login-title {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .login-sub {
+        font-size: 14px;
+    }
+
+    .login-util .login-util-item i {
+        font-size: 20px;
+    }
+
+    .login-util .login-util-item a {
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width: 1240px) {
+    .login-form-area .login-form {
+        max-width: 401px;
+        padding: 65px;
+    }
+
+    .login-title {
+        font-size: 23px;
+    }
+
+    .login-sub {
+        font-size: 15px;
+    }
+}

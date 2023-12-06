@@ -1,0 +1,158 @@
+/**
+*   Reset
+*
+*   @author GPLUS
+*/
+
+/* ########## 62.5% -> 10px가 기본 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-width: 320px;
+    overflow-x: hidden;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: 'appleNeoSDGothic', 'Pretendard', 'Noto Sans KR', Arial, Helvetica, sans-serif;
+    color: #555;
+    line-height: 1.5;
+}
+
+select {
+	word-wrap: normal;
+}
+
+/* Reset Paragraphs */
+p {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 16px;
+    color: rgba(102, 102, 102, .8);
+}
+
+/* address */
+address {
+	margin-bottom: 16px;
+	font-style: normal;
+	line-height: inherit;
+}
+
+/* heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.2;
+    color: #000;
+}
+
+/* list */
+ol,
+ul,
+dl {
+	list-style: none;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+	margin-bottom: 0;
+}
+
+/* Blockquote */
+blockquote {
+	margin-bottom: 16px;
+}
+
+/* button */
+button {
+    position: relative;
+    display: inline-block;
+    padding: 9px 11px;
+    background: #e0e1e2;
+    border-radius: 4px;
+    border-width: 0;
+    border-color: transparent;
+    border-style: solid;
+    outline: 0;
+    vertical-align: middle;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    cursor: pointer;
+    font-family: 'appleNeoSDGothic', 'Pretendard', 'Noto Sans KR', Arial, Helvetica, sans-serif;
+    font-size: rem(15);
+    font-weight: 400;
+    color: #555;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+input,
+optgroup,
+select,
+textarea {
+	margin: 0;
+	font-family: inherit;
+	line-height: inherit;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+/* Text Area */
+textarea {
+	resize: vertical;
+}
+
+/* code */
+code,
+kbd,
+pre,
+samp {
+    font-family: 'Noto Sans KR', 'Pretendard', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+code {
+	font-size: 12px;
+	color: #d63384;
+	word-wrap: break-word;
+}
+
+/* mark */
+mark,
+.mark {
+	padding: 3px;
+	background-color: #ffefd2;
+}
+
+/* table */
+table {
+	caption-side: bottom;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+	border-color: inherit;
+	border-style: solid;
+	border-width: 0;
+}

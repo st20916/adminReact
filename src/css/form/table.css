@@ -1,0 +1,50 @@
+.table-responsive {
+    overflow-x: auto;
+}
+
+table th, 
+table td {
+    padding: 14px;
+    font-size: 14px;
+}
+
+table th {
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* 사용자 조회 테이블 */
+.user-table {
+    border: 1px solid #7296FE;
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+}
+
+.user-table thead th:first-child {
+    border-radius: 5px 0 0 0;
+}
+
+.user-table thead th:last-child {
+    border-radius: 0 5px 0 0;
+}
+
+.user-table tbody td {
+    border-bottom: 1px solid #e2e2e3;
+}
+
+.user-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+@media all and (min-width: 992px) {
+    table th, 
+    table td {
+        font-size: 15px;
+    }
+}
